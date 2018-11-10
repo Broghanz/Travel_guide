@@ -15,26 +15,27 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+   background-color: #fff;
   border: .05rem solid #fff;
 }
 
-
-/*
+img{
+  rgba(.1);
+  }/*
  * Base structure
  */
 
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-image: url("palawan.jpg");
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  text-shadow: 0 .1rem .4rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
@@ -102,5 +103,5 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .7);
 }
