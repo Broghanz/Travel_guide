@@ -19,9 +19,7 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-img{
-  rgba(.1);
-  }/*
+  /*
  * Base structure
  */
 
@@ -29,6 +27,11 @@ html,
 body {
   height: 100%;
   background-image: url("palawan.jpg");
+
+}
+.lead{
+  text-shadow: 0 .1rem .5rem rgba(0, 0, 0, .5);
+  font-weight:bold;
 }
 
 body {
